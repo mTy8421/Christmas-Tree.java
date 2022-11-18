@@ -27,7 +27,15 @@ public class christmas {
             width += 2;
         }
 
-        
+        for(int i=1; i<= height - 1;i++){
+            for(int j = space -3; j >= 0; j--){
+                System.out.print(" ");
+            }
+            for(int k = 1; k <= height - 1; k++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
         
     }
 }
