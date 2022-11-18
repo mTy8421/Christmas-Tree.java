@@ -17,9 +17,17 @@ public class christmas {
                 for(int j = space; j >= i; j--){
                     System.out.print(" ");
                 }
-                
+
+                for(int k = 1; k<=i; k++){
+                    System.out.print("* ");
+                }
+                System.out.println();                
             }
+            x += 2;
+            width += 2;
         }
+
+        
         
     }
 }
